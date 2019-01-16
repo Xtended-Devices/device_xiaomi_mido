@@ -638,11 +638,9 @@
     <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
     <bool name="config_inflateSignalStrength">true</bool>
 
-<<<<<<< HEAD
     <!-- Disable rounded corners on windows to improve graphics performance -->
     <bool name="config_supportsRoundedCornersOnWindows">false</bool>
 
-<<<<<<< HEAD
     <!-- Set the default dialer package name. -->
     <string name="config_defaultDialer" translatable="false">com.android.dialer</string>
 
@@ -651,4 +649,8 @@
         manager will disable alpha trasformation in animations where not
         strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+
+    <!-- Whether device needs to wait for Qualcomm MPCTL service to start
+         before setting power profiles on boot. -->
+    <bool name="config_waitForMpctlOnBoot">true</bool>
 </resources>
