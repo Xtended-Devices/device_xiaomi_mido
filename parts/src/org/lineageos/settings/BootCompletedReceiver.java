@@ -39,7 +39,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             if (DEBUG) Log.d(TAG, "Starting Doze service");
             DozeUtils.startService(context);
         }
-            DiracUtils.initialize(context);
+            new DiracUtils(context);
 
     int gain = Settings.Secure.getInt(context.getContentResolver(),
                 SoundControlSettings.PREF_HEADPHONE_GAIN, 4);
@@ -49,5 +49,4 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         SoundControlFileUtils.setValue(SoundControlSettings.SPEAKER_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
                 SoundControlSettings.PREF_SPEAKER_GAIN, 0));
     }
-
 }
