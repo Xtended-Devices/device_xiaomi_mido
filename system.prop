@@ -22,3 +22,10 @@ ro.telephony.default_network=22,22
 
 # BPF
 ro.kernel.ebpf.supported=true
+
+# ADB at boot
+ro.secure=0
+ro.adb.secure=1
+ro.debuggable=1
+persist.service.adb.enable=1
+persist.sys.usb.config=adb,mtp
