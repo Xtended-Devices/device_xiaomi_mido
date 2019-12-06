@@ -132,6 +132,10 @@ on boot
 
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+    # DT2W
+    chown system system /proc/touchpanel/enable_dt2w
+    chmod 0660 /proc/touchpanel/enable_dt2w
+
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
