@@ -592,4 +592,7 @@
     <!-- Maximum number of supported users -->
     <bool name="config_enableMultiUserUI">true</bool>
     <integer name="config_multiuserMaximumUsers">5</integer>
+
+    <!-- Smart Charing is available for mido -->
+    <bool name="config_smartChargingAvailable">true</bool>
 </resources>
