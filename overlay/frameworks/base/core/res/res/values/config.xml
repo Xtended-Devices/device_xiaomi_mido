@@ -588,6 +588,7 @@
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
 
+<<<<<<< HEAD
     <!-- Overlays for SystemInfo -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone4/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
@@ -598,4 +599,7 @@
 
     <!-- Wired/BT headset focus mode -->
     <bool name="config_deviceRingtoneFocusMode">true</bool>
+
+    <!-- Smart Charing is available for mido -->
+    <bool name="config_smartChargingAvailable">true</bool>
 </resources>
