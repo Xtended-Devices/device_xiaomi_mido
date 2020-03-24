@@ -34,6 +34,7 @@ vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true
+vendor.audio.dolby.ds2.enabled=true
 
 # Audio dynamic feature flags
 PRODUCT_PROPERTY_OVERRIDES += \
