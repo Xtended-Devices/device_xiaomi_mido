@@ -20,4 +20,16 @@ genfscon sysfs   /devices/platform/soc/78b6000.i2c/i2c-2/2-001d/power_supply/par
 genfscon sysfs   /devices/platform/soc/78b6000.i2c/i2c-2/2-001d/power_supply/parallel/device/name                                            u:object_r:sysfs_battery_supply:s0
 
 # Touchscreen
-genfscon proc /touchpanel                                             u:object_r:proc_touchpanel:s0
+genfscon proc /touchpanel                                                                u:object_r:proc_touchpanel:s0
+
+# Earpiece gain
+genfscon sysfs /kernel/sound_control/earpiece_gain                                       u:object_r:sysfs_egain:s0
+
+# Headphone gain
+genfscon sysfs /kernel/sound_control/headphone_gain                                      u:object_r:sysfs_hgain:s0
+
+# Microphone gain
+genfscon sysfs /kernel/sound_control/mic_gain                                            u:object_r:sysfs_mgain:s0
+
+# USB force fastcharge
+genfscon sysfs /kernel/fast_charge/force_fast_charge                                     u:object_r:sysfs_fcharge:s0
