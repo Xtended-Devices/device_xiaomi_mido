@@ -3,3 +3,7 @@ set_prop(system_app, fm_prop)
 
 # zram
 r_dir_file(system_app sysfs_zram)
+
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read open getattr };
+
