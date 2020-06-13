@@ -595,4 +595,10 @@
 
     <!-- Smart Charing is available for mido -->
     <bool name="config_smartChargingAvailable">true</bool>
+
+    <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
+    <bool name="config_inflateSignalStrength">true</bool>
+
+    <!-- Whether device ignores the RSSNR Signal Implementation -->
+    <bool name="config_ignoreRSSNRsignallevel">true</bool>   
 </resources>
