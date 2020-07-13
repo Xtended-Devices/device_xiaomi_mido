@@ -32,3 +32,7 @@ type sysfs_mgain, sysfs_type, fs_type;
 type sysfs_sgain, sysfs_type, fs_type;
 type sysfs_fcharge, sysfs_type, fs_type;
 type sysfs_tbrightness, sysfs_type, fs_type;
+type sysfs_headgain, sysfs_type, fs_type;
+type sysfs_micgain, sysfs_type, fs_type;
+type sysfs_torch, sysfs_type, fs_type;
+type sysfs_fastcharge, sysfs_type, fs_type;

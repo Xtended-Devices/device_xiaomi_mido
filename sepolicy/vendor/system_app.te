@@ -4,7 +4,7 @@ set_prop(system_app, fm_prop)
 # zram
 r_dir_file(system_app sysfs_zram)
 
-# KCAL
+# XiaomiParts
 allow system_app kcal_dev:file rw_file_perms;
 allow system_app kcal_dev:dir search;
 allow system_app sysfs_vibrator:dir search;
@@ -19,11 +19,20 @@ allow system_app sysfs:file { getattr open read write };
 allow system_app sysfs_backlight:file { open read getattr write };
 allow system_app sysfs_egain:file { open read getattr write };
 allow system_app sysfs_hgain:file { open read getattr write };
+allow system_app sysfs_headgain:dir search;
+allow system_app sysfs_headgain:file rw_file_perms;
 allow system_app sysfs_mgain:file { open read getattr write };
+allow system_app sysfs_micgain:dir search;
+allow system_app sysfs_micgain:file rw_file_perms;
 allow system_app sysfs_sgain:file { open read getattr write };
+allow system_app sysfs_sgain:dir search;
+allow system_app sysfs_sgain:file rw_file_perms;
 allow system_app sysfs_fcharge:file { open read getattr write };
 allow system_app sysfs_tbrightness:file { open getattr write };
-allow system_app spectrum_prop:property_service set;
+allow system_app sysfs_torch:dir search;
+allow system_app sysfs_torch:file rw_file_perms;
+allow system_app sysfs_leds:dir { search };
+allow system_app sysfs_fastcharge:file { open read getattr write };
 
 allow system_app sysfs:file { read  write };
 allow system_app vendor_file:file { getattr  read };
