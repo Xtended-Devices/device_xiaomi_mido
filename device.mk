@@ -401,3 +401,7 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Custom Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
