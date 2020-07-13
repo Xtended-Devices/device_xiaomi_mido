@@ -36,3 +36,6 @@ type sysfs_headgain, sysfs_type, fs_type;
 type sysfs_micgain, sysfs_type, fs_type;
 type sysfs_torch, sysfs_type, fs_type;
 type sysfs_fastcharge, sysfs_type, fs_type;
+
+# Smart Charging
+type sysfs_smart_charging, fs_type, sysfs_type;

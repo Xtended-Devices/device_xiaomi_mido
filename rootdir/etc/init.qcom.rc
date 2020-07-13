@@ -103,9 +103,6 @@ on boot
     mkdir /dev/socket/qmux_radio 0770 radio radio
     chmod 2770 /dev/socket/qmux_radio
 
-    # Power supply
-    chmod 0660 /sys/class/power_supply/battery/input_suspend
-
     mkdir /persist/drm 0770 system system
     mkdir /mnt/vendor/persist/bluetooth 0770 bluetooth bluetooth
     mkdir /persist/misc 0770 system system
@@ -127,10 +124,8 @@ on boot
     write /proc/sys/kernel/printk "6 6 1 7"
 
     # SmartCharging
-    chown system system /sys/class/power_supply/battery/charging_enabled
-    chmod 0666 /sys/class/power_supply/battery/charging_enabled
-    chown system system /sys/class/power_supply/battery/input_suspend
-    chmod 0666 /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/devices/soc/qpnp-smbcharger-14/power_supply/battery/charging_enabled
+    chmod 0666 /sys/devices/soc/qpnp-smbcharger-14/power_supply/battery/charging_enabled
 
     # Vibration
     chown system system /sys/devices/virtual/timed_output/vibrator/vtg_level
