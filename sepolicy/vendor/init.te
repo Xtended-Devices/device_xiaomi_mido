@@ -15,3 +15,6 @@ allow init sysfs_leds:lnk_file read;
 allow init sysfs:file setattr;
 
 allow init firmware_file:filesystem getattr;
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
