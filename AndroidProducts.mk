@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_mido.mk
+    $(LOCAL_DIR)/colt_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_mido-user \
-    havoc_mido-userdebug \
-    havoc_mido-eng
+    colt_mido-user \
+    colt_mido-userdebug \
+    colt_mido-eng
