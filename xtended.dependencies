@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "Sagarrokade006/android_vendor_xiaomi_mido",
+    "target_path": "vendor/xiaomi/mido",
+    "revision": "xq"
+  },
+  {
+    "remote": "github",
+    "repository": "Fox-Project-x/Cartel-FoxKernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "revision": "ten"
+  }
+]
