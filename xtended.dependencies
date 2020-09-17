@@ -2,7 +2,7 @@
   {
     "remote": "github",
     "repository": "Sagarrokade006/android_vendor_xiaomi_mido",
-    "target_path": "vendor/xiaomi/mido",
+    "target_path": "vendor/xiaomi",
     "branch": "xq"
   },
   {
