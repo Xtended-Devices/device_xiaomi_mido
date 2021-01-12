@@ -634,4 +634,7 @@
 
     <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
     <bool name="config_inflateSignalStrength">true</bool>
+
+    <!-- Disable rounded corners on windows to improve graphics performance -->
+    <bool name="config_supportsRoundedCornersOnWindows">false</bool>
 </resources>
