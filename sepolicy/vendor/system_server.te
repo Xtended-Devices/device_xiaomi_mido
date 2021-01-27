@@ -9,3 +9,6 @@ allow system_server sysfs_vibrator:file read;
 
 # Pocket Lock
 allow system_server default_android_service:service_manager { add };
+
+# Smart charger
+allow system_server sysfs_battery_supply:file rw_file_perms;
