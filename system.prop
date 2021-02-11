@@ -32,3 +32,6 @@ persist.sys.usb.config=adb,mtp
 
 # Navbar
 qemu.hw.mainkeys=0
+
+# Zygote Preforking
+persist.device.config.runtime_native.uasp_pool_enabled=true
