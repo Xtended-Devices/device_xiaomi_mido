@@ -162,6 +162,12 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # Selinux Neverallows
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /vendor/lib64/hw/gxfingerprint.default.so|fakelogprint.so \
+    /vendor/lib64/hw/fingerprint.goodix.so|fakelogprint.so \
+    /vendor/bin/gx_fpd|fakelogprint.so
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
