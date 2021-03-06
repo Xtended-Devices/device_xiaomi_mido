@@ -639,6 +639,13 @@
     <!-- Disable rounded corners on windows to improve graphics performance -->
     <bool name="config_supportsRoundedCornersOnWindows">false</bool>
 
+<<<<<<< HEAD
     <!-- Set the default dialer package name. -->
     <string name="config_defaultDialer" translatable="false">com.android.dialer</string>
+
+    <!-- Flag indicating whether the surface flinger has limited
+        alpha compositing functionality in hardware.  If set, the window
+        manager will disable alpha trasformation in animations where not
+        strictly needed. -->
+    <bool name="config_sf_limitedAlpha">true</bool>
 </resources>
