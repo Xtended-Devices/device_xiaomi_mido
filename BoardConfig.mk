@@ -164,7 +164,6 @@ TARGET_LD_SHIM_LIBS := \
     /vendor/bin/gx_fpd|libshims_gxfpd.so
 
 # Treble
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 BOARD_VNDK_VERSION := current
 
