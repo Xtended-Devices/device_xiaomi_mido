@@ -125,6 +125,7 @@ static void workaround_snet_properties() {
 void vendor_load_properties()
 {
     check_device();
+    set_avoid_gfxaccel_config();
 
     property_override("dalvik.vm.heapstartsize", "8m");
     property_override("dalvik.vm.heapgrowthlimit", "192m");
