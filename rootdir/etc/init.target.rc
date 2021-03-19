@@ -154,10 +154,7 @@ on charger
     start thermal-engine
 
 on boot
-# Flashlight
-    chown root system /sys/class/leds/led:torch_1/max_brightness
-    chmod 0660 /sys/class/leds/led:torch_1/max_brightness
-    write /sys/class/leds/led:torch_1/max_brightness 0
+    chown system system /sys/kernel/hbtp/display_pwr
 
     # Create an stune group for the camera-daemon
     mkdir /dev/stune/camera-daemon

@@ -56,3 +56,13 @@
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs_fps:s0
+
+# AC Torch
+/sys/class/leds/led:torch_0/max_brightness    u:object_r:sysfs_torch:s0
+/sys/class/leds/led:torch_1/max_brightness    u:object_r:sysfs_torch:s0
+
+# AC Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)?    u:object_r:sysfs_kcal:s0
+
+# AC Vibration
+/sys/class/leds/vibrator/vmax_mv    u:object_r:sysfs_vibrator:s0
