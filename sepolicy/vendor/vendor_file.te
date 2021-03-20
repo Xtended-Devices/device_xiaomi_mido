@@ -1,1 +1,1 @@
-allow vendor_file vendor_file:file { getattr };
+allow vendor_file vendor_file:file { getattr  read };

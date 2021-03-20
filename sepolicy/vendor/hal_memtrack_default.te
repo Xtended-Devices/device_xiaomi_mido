@@ -1,0 +1,2 @@
+allow hal_memtrack_default hal_memtrack_default:binder { call };
+

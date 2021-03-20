@@ -1,0 +1,1 @@
+allow proc_max_map_count proc_max_map_count:file { getattr  open  read };

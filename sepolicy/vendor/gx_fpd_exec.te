@@ -1,0 +1,1 @@
+allow gx_fpd_exec gx_fpd_exec:file { getattr  read };

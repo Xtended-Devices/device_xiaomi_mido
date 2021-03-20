@@ -1,0 +1,1 @@
+allow virtual_ab_prop virtual_ab_prop:file { getattr  open  read };

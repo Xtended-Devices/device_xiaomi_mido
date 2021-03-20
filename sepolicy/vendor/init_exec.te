@@ -1,0 +1,1 @@
+allow init_exec init_exec:lnk_file { getattr };

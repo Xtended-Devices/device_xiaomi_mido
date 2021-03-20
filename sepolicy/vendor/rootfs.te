@@ -1,1 +1,2 @@
 allow rootfs rootfs:dir { read };
+allow rootfs rootfs:file { getattr };
