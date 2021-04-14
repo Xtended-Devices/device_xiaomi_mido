@@ -440,3 +440,7 @@ PRODUCT_BOOT_JARS += \
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
+# CustomDoze
+PRODUCT_PACKAGES += \
+    CustomDoze
