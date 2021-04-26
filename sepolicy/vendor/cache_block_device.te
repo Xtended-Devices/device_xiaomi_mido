@@ -1,0 +1,1 @@
+allow cache_block_device cache_block_device:blk_file { getattr };
