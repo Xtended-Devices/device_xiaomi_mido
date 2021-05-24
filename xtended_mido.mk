@@ -27,7 +27,7 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Xtended
 XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER := Pratyaksh.Bharadwaj
-TARGET_SCREEN_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
