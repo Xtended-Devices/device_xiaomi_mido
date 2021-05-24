@@ -1261,10 +1261,7 @@ vendor/bin/thermal-engine|b031c9df02d5ed57f9155f441a1883b46cdab57b
 vendor/lib/libthermalclient.so|c0089a7fdd34bc5f3ea0556e5f4a087ab02fc34f
 vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
 
-# Thermal (legacy) - from LA.UM.8.6.2.r1-08400-89xx.0
-vendor/lib64/hw/thermal.msm8953.so|0bdee03ca7bd39691e44f6ebe1bcbeed9b9aca66
-
-# Time services - from LA.UM.9.6.2.r1-03600-89xx.0
+# Time services - from LA.UM.9.6.2.r1-04100-89xx.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|a27ac4aeafb41158b96046edbd553ae76835b4ed
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
