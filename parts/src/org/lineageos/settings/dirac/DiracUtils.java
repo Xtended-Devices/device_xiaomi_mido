@@ -122,7 +122,7 @@ public final class DiracUtils {
     }
 
     protected boolean isDiracEnabled() {
-        return mDiracSound.getMusic() == 1;
+        return mDiracSound != null && mDiracSound.getMusic() == 1;
     }
 
     protected void setLevel(String preset) {
