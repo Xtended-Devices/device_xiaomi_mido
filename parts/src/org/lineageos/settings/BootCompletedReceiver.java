@@ -40,8 +40,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             if (DEBUG) Log.d(TAG, "Starting Doze service");
             DozeUtils.startService(context);
         }
-
-            new DiracUtils(context).onBootCompleted();
+        new DiracUtils(context).onBootCompleted();
 
         FileUtils.setValue(TorchSettings.TORCH_1_BRIGHTNESS_PATH,
                 Settings.Secure.getInt(context.getContentResolver(),
