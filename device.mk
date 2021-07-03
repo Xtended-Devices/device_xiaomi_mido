@@ -22,6 +22,7 @@ PRODUCT_BOARD_PLATFORM := msm8953
 PRODUCT_USES_QCOM_HARDWARE := true
 
 OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-r
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -295,7 +296,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/configs/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
-    
+
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
@@ -418,7 +419,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
-    
+
 # VNDK
 PRODUCT_PACKAGES += \
     libstdc++.vendor
@@ -462,3 +463,8 @@ PRODUCT_BOOT_JARS += \
 # CustomDoze
 PRODUCT_PACKAGES += \
     CustomDoze
+
+# Hacks
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
