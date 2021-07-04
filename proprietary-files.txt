@@ -1232,6 +1232,7 @@ vendor/bin/thermal-engine|f035777bb32c1f7a4a8ff2687e82a4e975568e52
 vendor/lib/libthermalclient.so|14593d3551af6ce493b8534d123739cc7d146993
 vendor/lib64/libthermalclient.so|c36b6baf6e82a73e7afaf52589dada5248a69daf
 vendor/lib64/libthermalioctl.so|1d6587245c7e7148638f14254e2f61f6b5552857
+vendor/etc/init/init_thermal-engine.rc
 
 # Time services - from LA.UM.9.6.2.r1-04200-89xx.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
