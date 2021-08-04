@@ -27,6 +27,9 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Bootanimation flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Inherit MiuiCamera
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+
 # Xtended Stuff
 XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER := Pratyaksh.Bharadwaj
