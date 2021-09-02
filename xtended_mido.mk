@@ -31,6 +31,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 XTENDED_BUILD_TYPE := UnOfficial
 XTENDED_BUILD_MAINTAINER : Pratyaksh.Bharadwaj
 TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
