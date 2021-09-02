@@ -87,7 +87,6 @@ static const char *snet_prop_key[] = {
     "ro.boot.vbmeta.device_state",
     "ro.boot.verifiedbootstate",
     "ro.boot.flash.locked",
-    "ro.boot.selinux",
     "ro.boot.veritymode",
     "ro.boot.warranty_bit",
     "ro.warranty_bit",
@@ -103,7 +102,6 @@ static const char *snet_prop_value[] = {
     "locked",
     "green",
     "1",
-    "enforcing",
     "enforcing",
     "0",
     "0",
@@ -122,8 +120,6 @@ static void workaround_snet_properties() {
         property_override(snet_prop_key[i], snet_prop_value[i]);
     }
 
-     chmod("/sys/fs/selinux/enforce", 0640);
-     chmod("/sys/fs/selinux/policy", 0440);
 }
 
 void vendor_load_properties()
