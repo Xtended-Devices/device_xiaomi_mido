@@ -1,0 +1,1 @@
+allow vendor_overlay_file vendor_overlay_file:dir { read };

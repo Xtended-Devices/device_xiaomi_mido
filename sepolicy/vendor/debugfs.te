@@ -1,0 +1,1 @@
+allow debugfs debugfs:file { read };

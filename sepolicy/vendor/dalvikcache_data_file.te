@@ -1,0 +1,1 @@
+allow dalvikcache_data_file dalvikcache_data_file:file { execmod };

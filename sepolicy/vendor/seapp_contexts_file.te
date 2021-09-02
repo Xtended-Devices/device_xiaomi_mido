@@ -1,0 +1,1 @@
+allow seapp_contexts_file seapp_contexts_file:file { getattr };

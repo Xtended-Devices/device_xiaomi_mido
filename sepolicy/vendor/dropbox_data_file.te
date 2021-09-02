@@ -1,0 +1,1 @@
+allow dropbox_data_file dropbox_data_file:dir { search };

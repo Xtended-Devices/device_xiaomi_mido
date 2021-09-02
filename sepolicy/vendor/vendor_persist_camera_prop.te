@@ -1,0 +1,1 @@
+allow vendor_persist_camera_prop vendor_persist_camera_prop:file { read };

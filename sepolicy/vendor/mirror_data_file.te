@@ -1,0 +1,1 @@
+allow mirror_data_file mirror_data_file:dir { getattr };

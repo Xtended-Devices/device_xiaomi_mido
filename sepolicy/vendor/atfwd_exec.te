@@ -1,0 +1,1 @@
+allow atfwd_exec atfwd_exec:file { getattr };
