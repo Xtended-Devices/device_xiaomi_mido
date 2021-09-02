@@ -27,6 +27,11 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Bootanimation flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Xtended Stuff
+XTENDED_BUILD_TYPE := UnOfficial
+XTENDED_BUILD_MAINTAINER : Pratyaksh.Bharadwaj
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := xtended_mido
