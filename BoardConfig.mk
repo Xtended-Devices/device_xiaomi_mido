@@ -168,6 +168,9 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Selinux Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
