@@ -28,7 +28,7 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Xtended Stuff
-XTENDED_BUILD_TYPE := UnOfficial
+XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER : Pratyaksh.Bharadwaj
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
