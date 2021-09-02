@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 PRODUCT_BOARD_PLATFORM := msm8953
 PRODUCT_USES_QCOM_HARDWARE := true
 
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-r
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
