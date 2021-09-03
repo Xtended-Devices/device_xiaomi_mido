@@ -29,3 +29,6 @@ ro.adb.secure=1
 ro.debuggable=1
 persist.service.adb.enable=1
 persist.sys.usb.config=adb,mtp
+
+# Navbar
+qemu.hw.mainkeys=0
