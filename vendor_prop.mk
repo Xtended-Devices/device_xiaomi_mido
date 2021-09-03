@@ -231,10 +231,6 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=0
 
-# Priv-app Permissions
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.control_privapp_permissions=false
-
 # Dirac algo tsx 9/12
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dirac.acs.controller=qem \
