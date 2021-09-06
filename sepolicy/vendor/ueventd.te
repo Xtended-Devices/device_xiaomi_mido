@@ -13,3 +13,4 @@ allow ueventd {
 }:file getattr;
 
 allow ueventd ueventd:capability { kill };
+allow ueventd self:capability kill;
