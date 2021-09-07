@@ -69,6 +69,7 @@ persist.camera.isp.clock.optmz=0
 persist.camera.isp.debug=0
 persist.camera.sensor.debug=0
 persist.camera.stats.test=5
+persist.camera.eis.enable=1
 
 # Cne
 persist.vendor.cne.feature=1
