@@ -26,4 +26,7 @@
          devices will be able to vary their amplitude but do not possess enough dynamic range to
          have distinct intensity levels -->
   <bool name="config_vibration_supports_multiple_intensities">true</bool>
+
+  <!-- Whether device supports Ultra Power Saving feature -->
+  <bool name="config_supportUltraPowerSaving">true</bool>
 </resources>
