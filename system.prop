@@ -2,6 +2,13 @@
 # system.prop for mido
 #
 
+# ADB on boot
+ro.secure=0
+ro.adb.secure=1
+ro.debuggable=1
+persist.service.adb.enable=1
+persist.sys.usb.config=adb,mtp
+
 # Audio
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=6
