@@ -1,0 +1,26 @@
+[
+  {
+    "remote"        :  "github",
+    "repository"    :  "vendor_xiaomi_MiuiCamera_mido",
+    "target_path"   :  "vendor/xiaomi/MiuiCamera",
+    "branch"        :  "mkp"
+  },
+  {
+    "remote"        :  "github",
+    "repository"    :  "android_hardware_qcom_audio",
+    "target_path"   :  "hardware/qcom-caf/msm8996/audio",
+    "branch"        :  "r31"
+  },
+  {
+    "remote"        :  "github",
+    "repository"    :  "android_hardware_qcom_display",
+    "target_path"   :  "hardware/qcom-caf/msm8996/display",
+    "branch"        :  "r31"
+  },
+  {
+    "remote"        :  "github",
+    "repository"    :  "android_hardware_qcom_media",
+    "target_path"   :  "hardware/qcom-caf/msm8996/media",
+    "branch"        :  "r31"
+  }
+]
